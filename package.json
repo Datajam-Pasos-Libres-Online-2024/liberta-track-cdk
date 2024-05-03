@@ -1,8 +1,8 @@
 {
-  "name": "genai-cdk",
+  "name": "liberta-track-cdk",
   "version": "0.1.0",
   "bin": {
-    "genai-cdk": "bin/genai-cdk.js"
+    "liberta-track-cdk": "bin/liberta-track-cdk.js"
   },
   "scripts": {
     "build": "tsc",
