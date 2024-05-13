@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@aws-cdk/assets": "^1.204.0",
+    "@aws-cdk/aws-s3": "^1.204.0",
     "@aws-cdk/region-info": "^2.140.0",
     "@serverless-stack/resources": "^1.18.4",
     "aws-cdk-lib": "2.139.1",

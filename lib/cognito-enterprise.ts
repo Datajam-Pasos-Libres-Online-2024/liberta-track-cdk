@@ -6,8 +6,6 @@ import { CognitoAuthRole } from './CognitoAuthRole';
 
 export function buildCognitoEnterpriseAuth(scope: Construct, bucketArn: string) {
 
-  const app = scope.node.root;
-
   const cognito = new UserPool(scope, "liberta-track-enterprise-pool", {
     userPoolName: 'liberta-track-enterprise-pool',
     signInAliases: {
